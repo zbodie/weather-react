@@ -1,23 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-
-class HelloWorld extends React.Component {
-
-  render() {
-    return (
-      <div>
-          Hello World!
-      </div>
-    );
-  }
-}
-
-
+import Weather from './weather';
 
 // ========================================
 
 ReactDOM.render(
-<HelloWorld />,
-document.getElementById('root')
+  <Weather />,
+  document.getElementById('root')
 );
